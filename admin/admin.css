@@ -1,0 +1,20 @@
+/* admin panel */
+
+.topBar {
+    margin: 5px;
+}
+
+.topBar a {
+    padding: 10px;
+
+}
+
+.topBar i {
+    color: #da4545;
+    font-weight: bold;
+    background: transparent;
+    padding: 15px;
+    border-radius: 50%;
+    border: 1px solid #da4545;
+    font-size: 30px
+}

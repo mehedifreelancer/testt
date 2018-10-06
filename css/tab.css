@@ -1,0 +1,137 @@
+/* <source :http://webdesignerhut.com/examples/pure-css-tabs/> */
+
+.tabs {
+    max-width: 100%;
+    float: none;
+    list-style: none;
+    padding: 0;
+    margin: 0px auto;
+
+}
+
+.tabs:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.tabs input[type=radio] {
+    display: none;
+}
+
+.tabs label {
+    display: block;
+    float: left;
+    width: 33.3333%;
+    color: #666666;
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2;
+    cursor: pointer;
+
+    /* Safari 3.1 to 6.0 */
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.tabs label span {
+    display: none;
+}
+
+.tabs label i {
+    padding: 5px;
+    margin-right: 0;
+    display: none;
+}
+
+.tabs label:hover {
+    color: white;
+
+}
+
+.tab-content {
+    display: none;
+    width: 100%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: transparent;
+
+}
+
+.tab-content * {
+    -webkit-animation: scale 0.7s ease-in-out;
+    animation: scale 0.7s ease-in-out;
+}
+
+@-webkit-keyframes scale {
+    0% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    50% {
+        -webkit-transform: scale(1.01);
+        transform: scale(1.01);
+        opacity: 0.5;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes scale {
+    0% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    50% {
+        -webkit-transform: scale(1.01);
+        transform: scale(1.01);
+        opacity: 0.5;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.tabs [id^="tab"]:checked + label {
+    background: transparent;
+    color: #da4545;
+    margin-bottom: 0px;
+
+
+}
+
+#tab1:checked ~ #tab-content1,
+#tab2:checked ~ #tab-content2,
+#tab3:checked ~ #tab-content3 {
+    display: block;
+}
+
+
+.tabs i {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.tabs label span {
+    display: inline-block;
+}
+
+.tabs {
+    max-width: 100%;
+    margin: 0px 15px;
+}
+
+
+.tabs {
+    color: white;
+}

@@ -1,0 +1,129 @@
+@media screen and (max-width:768px) {
+    .leftPanel {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .miniMenu {
+        display: none;
+    }
+    .menuButton {
+        display: none
+    }
+
+
+}
+
+
+
+@media screen and (max-width:768px) {
+    .divContainer {
+        max-width: 50%;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+    .divContainer {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    .skillBtn {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .next {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .excHeading {
+        font-size: 20px;
+        margin-left: 90px
+    }
+
+    .greet h1 {
+        font-family: Forte;
+        font-family: Script MT;
+        font-size: 40px;
+
+    }
+    .greet {
+        margin-top: 90px;
+
+    }
+    .greet a {
+        color: #31353a;
+        background: rgba(218, 69, 69, .6);
+        text-decoration: none;
+        padding: 10px 15px;
+        -webkit-transition: .7s;
+        transition: .7s;
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+
+    .skillinDiv {
+        opacity: 0;
+        -webkit-transition: 1s;
+        transition: 1s;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+
+    .videoOverlayOne,
+    .videoOverlayTwo,
+    .videoOverlayThree {
+        display: none;
+    }
+  
+}
+
+
+@media screen and (max-width:768px) {
+
+    .bar {
+        display: none;
+    }
+    iframe{
+        height: 320px
+    }
+
+
+}
+
+@media screen and (min-width:768px) {
+
+    .videoFadeOut {
+        opacity: 1;
+        height: 515px;
+        -webkit-transition: 1s;
+        transition: 1s;
+    }
+    .fadeOut {
+        opacity: 0;
+        -webkit-transition: 1s;
+        transition: 1s;
+    }
+
+
+}
